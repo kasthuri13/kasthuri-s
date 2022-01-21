@@ -2,9 +2,9 @@ import java.util.*;
 
 public class atm {
     static Scanner sc = new Scanner(System.in);
-    static int balance = 20000;
+    static int balance = 20000;/// user balance
     static int arr[] = { 0, 0, 0, 0 };
-    static int balance1 = 30000;
+    static int balance1 = 30000;////admin balance
     static int inp;
     static int pass = 1234;
     static int pass1 = 123;
@@ -241,19 +241,19 @@ public class atm {
         System.out.flush();
         System.out.println("Enter your old pin");
         int s = sc.nextInt();
-        if (s == pass) {
+        if (s == pass1) {
             System.out.println("Enter your new pin");
             int s1 = sc.nextInt();
-            pass = s1;
+            pass1 = s1;
             System.out.println("Pin changed successfully!!!");
         } else {
             System.out.println("Invalid pin");
             System.out.println("Re enter the pin");
             int s2 = sc.nextInt();
-            if (s2 == pass) {
+            if (s2 == pass1) {
                 System.out.println("Enter a new pin");
                 int s3 = sc.nextInt();
-                pass = s3;
+                pass1 = s3;
                 System.out.println("Pin changed successfully!!!");
             }
         }
