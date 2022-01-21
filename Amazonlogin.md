@@ -1,3 +1,3 @@
 Admin name:kasthuri
 admin password:123
-user must sign up
+ sign up must for both merchent and user
