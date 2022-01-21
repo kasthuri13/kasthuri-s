@@ -3,7 +3,7 @@ import java.util.*;
 public class Amazon {
     static Scanner sc = new Scanner(System.in);
     static int p = 123;
-    static String k = "k";
+    static String k = "kasthuri";
     static String uname = "";
     static String pass = "";
     static int count = 0;
